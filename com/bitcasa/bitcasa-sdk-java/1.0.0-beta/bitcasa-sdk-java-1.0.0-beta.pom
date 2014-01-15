@@ -25,7 +25,7 @@
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.8</version>
 				<configuration>
-					<message>Maven artifacts for ${project.version}</message>
+					<message>Maven artifacts for bitcasa-sdk-java ${project.version}</message>
 					<noJekyll>true</noJekyll>
 					<outputDirectory>${project.build.directory}/repo</outputDirectory>
 					<branch>refs/heads/master</branch>
